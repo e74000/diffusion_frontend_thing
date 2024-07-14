@@ -1,0 +1,10 @@
+Flask
+torch
+diffusers
+Pillow
+accelerate
+transformers
+pandas
+numpy
+scikit-learn
+faiss-cpu
