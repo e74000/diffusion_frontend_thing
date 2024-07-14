@@ -2,6 +2,8 @@
 
 this project is a simple frontend for [animagine-xl-3.1](https://huggingface.co/cagliostrolab/animagine-xl-3.1) that i built, in order to test out a simple tag autocomplete/correction system.
 
+![screenshot](./images/screenshot.png)
+
 ## running the project
 
 if you haven't already set up the project, look at the setup guide.
