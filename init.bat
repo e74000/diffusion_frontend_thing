@@ -27,14 +27,14 @@ call venv\Scripts\activate
 echo Installing backend dependencies...
 pip install -r requirements.txt
 
-:: Step 3: Check and fetch safe.csv if not exists
-set SAFE_CSV=backend\safe.csv
+:: Step 3: Check and fetch safe.h5 if not exists
+set SAFE_H5=backend\safe.h5
 
-if not exist "%SAFE_CSV%" (
-    echo Fetching safe.csv...
-    curl -o "%SAFE_CSV%" https://r2.e74000.net/diffusion_frontend_thing/safe.csv
+if not exist "%SAFE_H5%" (
+    echo Fetching safe.h5...
+    curl -o "%SAFE_H5%" https://r2.e74000.net/diffusion_frontend_thing/safe.h5
 ) else (
-    echo safe.csv already exists.
+    echo safe.h5 already exists.
 )
 
 echo Initialization complete.

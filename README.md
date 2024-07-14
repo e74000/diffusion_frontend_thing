@@ -95,9 +95,9 @@ you will probably need somewhere around 16GB of VRAM to run the program?
    ```sh
    pip install -r requirements.txt
    ```
-5. check if `safe.csv` exists in the backend directory. if it is missing fetch it with:
+5. check if `safe.h5` exists in the backend directory. if it is missing fetch it with:
    ```sh
-   curl https://r2.e74000.net/diffusion_frontend_thing/safe.csv
+   curl https://r2.e74000.net/diffusion_frontend_thing/safe.h5
    ```
 6. finally you can run the backend script with:
    ```sh

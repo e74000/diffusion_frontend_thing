@@ -4,7 +4,7 @@ diffusers
 Pillow
 accelerate
 transformers
-pandas
 numpy
 scikit-learn
 faiss-cpu
+h5py
